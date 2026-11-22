@@ -1,11 +1,26 @@
-# Java — лабораторные работы
+# CourseHub — практическая работа 10
 
-Автор: Горбачев Д.В.
+Шесть самостоятельных демонстраций `Future`, `CompletableFuture`, выбора executor, virtual threads и общего deadline. Автор: Горбачев Д.В.
 
-| Работа | Ветка |
-|---|---|
-| Лабораторная №3 — коллекции и generics, задания 1–15 | [feat/lab_03](https://github.com/Mahmud52Ali/java/tree/feat/lab_03) |
-| Лабораторная №7 — файловый ввод-вывод, задания 1–9 | [feat/pr_07](https://github.com/Mahmud52Ali/java/tree/feat/pr_07) · [отчёт PDF](https://github.com/Mahmud52Ali/java/blob/feat/pr_07/output/pdf/%D0%93%D0%BE%D1%80%D0%B1%D0%B0%D1%87%D0%B5%D0%B2_%D0%94%D0%92_%D0%9E%D1%82%D1%87%D0%B5%D1%82_%D0%BF%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F_%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0_7.pdf) |
-| Лабораторная №8 — Stream API, задания 1–7 | [feat/pr_08](https://github.com/Mahmud52Ali/java/tree/feat/pr_08) · [отчёт PDF](https://github.com/Mahmud52Ali/java/blob/feat/pr_08/output/pdf/%D0%93%D0%BE%D1%80%D0%B1%D0%B0%D1%87%D0%B5%D0%B2_%D0%94%D0%92_%D0%9E%D1%82%D1%87%D0%B5%D1%82_%D0%BF%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F_%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0_8.pdf) |
+Отчёт: [PDF](output/pdf/Горбачев_ДВ_Отчет_практическая_работа_10.pdf) · [DOCX](output/docx/Горбачев_ДВ_Отчет_практическая_работа_10.docx).
 
-Код, инструкции запуска и отчёт находятся в ветке соответствующей лабораторной.
+## Запуск
+
+Нужны JDK 21+ и Gradle. Компиляция выполняется с `--release 21`; preview API не используются.
+
+```sh
+gradle clean run
+```
+
+## Задания
+
+| № | Класс | Что проверяется |
+|---|---|---|
+| 1 | `Task01CallableFuture` | `Runnable` и `Callable`, checked exception, `Future.get(timeout)`, отмена через `cancel(true)`, interruption и закрытие ресурса |
+| 2 | `Task02CompletablePipeline` | `supplyAsync` → `thenApply` → `thenAccept`, явные executor и плоский результат через `thenCompose` |
+| 3 | `Task03AllOfResults` | Типизированные результаты в исходном порядке, fail-fast политика и частичный результат с ошибками |
+| 4 | `Task04ExecutorChoice` | CPU pool и blocking I/O pool, starvation при одном worker и virtual-thread-per-task executor |
+| 5 | `Task05ThreadExperiment` | 240 блокирующих задач, время, platform/virtual task threads и приблизительная разница heap |
+| 6 | `Task06SharedDeadline` | Общий monotonic deadline, пересчёт остатка перед каждой стадией, отмена и ожидание завершения |
+
+Эксперимент задания 5 предназначен для наблюдения, а не для полноценного benchmark. В задании 6 структурированная конкурентность объясняется концептуально; preview API не вызывается.
