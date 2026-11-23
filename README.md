@@ -1,11 +1,35 @@
-# Java — лабораторные работы
+# CourseHub — практическая работа 3
 
-В репозитории собраны пять практических работ. Ветка каждой работы содержит исходный код и свой README с инструкцией запуска; отчёты доступны в PDF и DOCX.
+Пятнадцать демонстраций интерфейсов, полиморфизма, наследования, композиции и проектирования правил допуска.
 
-| Работа | Тема | Задания | Материалы |
-|---|---|---:|---|
-| №5 | Коллекции и Generics | 1–15 | [код](https://github.com/Mahmud52Ali/java/tree/feat/lab_03) · [PDF](https://github.com/Mahmud52Ali/java/blob/feat/lab_03/output/pdf/%D0%93%D0%BE%D1%80%D0%B1%D0%B0%D1%87%D0%B5%D0%B2_%D0%94%D0%92_%D0%9E%D1%82%D1%87%D0%B5%D1%82_%D0%BF%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F_%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0_5.pdf) · [DOCX](https://github.com/Mahmud52Ali/java/blob/feat/lab_03/output/docx/%D0%93%D0%BE%D1%80%D0%B1%D0%B0%D1%87%D0%B5%D0%B2_%D0%94%D0%92_%D0%9E%D1%82%D1%87%D0%B5%D1%82_%D0%BF%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F_%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0_5.docx) |
-| №7 | Файловый ввод-вывод | 1–9 | [код](https://github.com/Mahmud52Ali/java/tree/feat/pr_07) · [PDF](https://github.com/Mahmud52Ali/java/blob/feat/pr_07/output/pdf/%D0%93%D0%BE%D1%80%D0%B1%D0%B0%D1%87%D0%B5%D0%B2_%D0%94%D0%92_%D0%9E%D1%82%D1%87%D0%B5%D1%82_%D0%BF%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F_%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0_7.pdf) · [DOCX](https://github.com/Mahmud52Ali/java/blob/feat/pr_07/output/docx/%D0%93%D0%BE%D1%80%D0%B1%D0%B0%D1%87%D0%B5%D0%B2_%D0%94%D0%92_%D0%9E%D1%82%D1%87%D0%B5%D1%82_%D0%BF%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F_%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0_7.docx) |
-| №8 | Stream API | 1–7 | [код](https://github.com/Mahmud52Ali/java/tree/feat/pr_08) · [PDF](https://github.com/Mahmud52Ali/java/blob/feat/pr_08/output/pdf/%D0%93%D0%BE%D1%80%D0%B1%D0%B0%D1%87%D0%B5%D0%B2_%D0%94%D0%92_%D0%9E%D1%82%D1%87%D0%B5%D1%82_%D0%BF%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F_%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0_8.pdf) · [DOCX](https://github.com/Mahmud52Ali/java/blob/feat/pr_08/output/docx/%D0%93%D0%BE%D1%80%D0%B1%D0%B0%D1%87%D0%B5%D0%B2_%D0%94%D0%92_%D0%9E%D1%82%D1%87%D0%B5%D1%82_%D0%BF%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F_%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0_8.docx) |
-| №9 | Многопоточность и синхронизация | 1–6 | [код](https://github.com/Mahmud52Ali/java/tree/pr_09) · [PDF](https://github.com/Mahmud52Ali/java/blob/pr_09/output/pdf/%D0%93%D0%BE%D1%80%D0%B1%D0%B0%D1%87%D0%B5%D0%B2_%D0%94%D0%92_%D0%9E%D1%82%D1%87%D0%B5%D1%82_%D0%BF%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F_%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0_9.pdf) · [DOCX](https://github.com/Mahmud52Ali/java/blob/pr_09/output/docx/%D0%93%D0%BE%D1%80%D0%B1%D0%B0%D1%87%D0%B5%D0%B2_%D0%94%D0%92_%D0%9E%D1%82%D1%87%D0%B5%D1%82_%D0%BF%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F_%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0_9.docx) |
-| №10 | Future, CompletableFuture и virtual threads | 1–6 | [код](https://github.com/Mahmud52Ali/java/tree/pr_10) · [PDF](https://github.com/Mahmud52Ali/java/blob/pr_10/output/pdf/%D0%93%D0%BE%D1%80%D0%B1%D0%B0%D1%87%D0%B5%D0%B2_%D0%94%D0%92_%D0%9E%D1%82%D1%87%D0%B5%D1%82_%D0%BF%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F_%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0_10.pdf) · [DOCX](https://github.com/Mahmud52Ali/java/blob/pr_10/output/docx/%D0%93%D0%BE%D1%80%D0%B1%D0%B0%D1%87%D0%B5%D0%B2_%D0%94%D0%92_%D0%9E%D1%82%D1%87%D0%B5%D1%82_%D0%BF%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F_%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0_10.docx) |
+Отчёт: [PDF](output/pdf/Горбачев_ДВ_Отчет_практическая_работа_3.pdf) · [DOCX](output/docx/Горбачев_ДВ_Отчет_практическая_работа_3.docx).
+
+## Запуск
+
+Нужны JDK 21+ и Gradle. Preview API не используются.
+
+```sh
+gradle clean run
+```
+
+## Задания
+
+| № | Демонстрация | Что показано |
+|---|---|---|
+| 1 | `Task01CourseFormatter` | Интерфейс, две реализации, выбор метода во время выполнения |
+| 2 | `Task02DynamicDispatch` | Compile-time тип, overload resolution и override dispatch |
+| 3 | `Task03FormatterArray` | Массив форматтеров без проверок типов |
+| 4 | `Task04TemplateMethod` | Общая проверка адресата и `final send` с точкой расширения `doSend` |
+| 5 | `Task05TypeChoices` | Выбор интерфейса, абстрактного класса и отсутствия лишнего типа |
+| 6 | `Task06OverrideMistakes` | Сигнатуры, доступ, ковариантный результат и случайная перегрузка |
+| 7 | `Task07NotificationDecorators` | Logging и metrics как декораторы в двух порядках |
+| 8 | `Task08RepositoryLsp` | Разделение `CourseReader` и `CourseWriter` |
+| 9 | `Task09EnrollmentStrategy` | Стратегии допуска, передаваемые в конструктор сервиса |
+| 10 | `Task10DefaultConflict` | Явное разрешение конфликта default-методов |
+| 11 | `Task11Equality` | Симметрия equality, strict class equality и композиция |
+| 12 | `Task12SealedResult` | Закрытый результат и исчерпывающий pattern switch без `default` |
+| 13 | `Task13RemoveTypeCode` | Реализации `NotificationSender` вместо строки и `switch` |
+| 14 | `Task14CourseComposition` | Независимые компоненты формата курса и оплаты |
+| 15 | `Task15EnrollmentEngine` | Пять правил, `allOf`/`anyOf` и типизированный результат |
+
+Диаграмма зависимостей движка допуска находится в [docs/enrollment-engine.md](docs/enrollment-engine.md).
